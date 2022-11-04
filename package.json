@@ -7,7 +7,10 @@
     "postinstall": "node ./decorate-angular-cli.js",
     "start": "nx serve",
     "build": "nx build",
-    "test": "nx test"
+    "test": "nx test",
+    "start:xr-menu": "nx serve xr-menu",
+    "test:affected": "affected --target=test --parallel=5",
+    "build:affected": "nx affected:build --base= origin/main~1 --head= origin/main"
   },
   "private": true,
   "dependencies": {
