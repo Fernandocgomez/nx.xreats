@@ -1,0 +1,4 @@
+$mikado-yellow: #ffc300ff;
+$princeton-orange: #ec7505ff;
+$black-olive: #403d39ff;
+$eerie-black: #252422ff;
